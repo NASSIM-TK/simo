@@ -9,7 +9,7 @@
  $subject = "Mail From codeconia";
  $txt = "Name = ". $name . "/r/n Email = " . $email . "/r/n Message = " . $message . "/r/n Mobile number =". $number;  
 
- $headers = "From: noreply@tkouti5.github.io/simo/contact.html.com " . "/r/n" .
+ $headers = "From: noreply@tkouti5.github.io.com " . "/r/n" .
  "CC: somebodyelse@example.com";
  if($email!=NULL){
     mail ($to,$subject,$txt,$headers);
